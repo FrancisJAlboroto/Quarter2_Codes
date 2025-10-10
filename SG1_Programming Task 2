@@ -1,0 +1,6 @@
+def calculate_rate(d,r):
+    return d*r
+distance = float(input("Enter distance in kilometers: "))
+rate = float(input("Enter rate per kilometer (₱): "))
+total_delivery_fee = calculate_rate(distance, rate)
+print(f"Total Delivery Fee: {total_delivery_fee:.2f}")
